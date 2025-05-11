@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <table border="solid">
+    <!-- <table border="solid">
         <caption>A test with merged cells</caption>
         <tr>
             <td rowspan="2"></td>
@@ -29,6 +29,36 @@
             <td>0.002</td>
             <td>43%</td>
         </tr>
-    </table>
+    </table> -->
+    <!-- <form action="/server">
+        <select name="profession" id="profession">
+            <option value=""></option>
+            <option value="btech">btech</option>
+            <option value="mtech">mtech</option>
+        </select>
+        <input type="submit">
+
+    </form> -->
+    <form action="/server">
+        <h1>Registeration form</h1>
+        <label for="firstname"></label>
+        <input type="text" name="fname" id="firstname" placeholder="First Name">
+        <label for="lastname"></label>
+        <input type="text" name="lname" id="lastname" placeholder="Last Name">
+        <br>
+        <label for="gender">Please select gender </label>
+            <select name="gender" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        <br>
+        <label for="agreement">Do you agree to all terms of services ?</label>
+        <input type="checkbox" name="agree" id="agreement" checked>
+        Yes, I  agree
+        <br>
+        <!-- <button type="submit">Register</button> -->
+         <button>Register</button>
+        </label>
+    </form>
 </body>
 </html>
