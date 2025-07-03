@@ -1,0 +1,30 @@
+div{
+    height: 1200px;
+    width:1200px;
+}
+.hello1{
+    height: 600px;
+    width: 600px;
+    float: left;
+    background-color: hotpink;
+}
+.hello2{
+    height: 600px;
+    width: 600px;
+    float: right;
+    background-color: blue;
+}
+
+.hello3{
+    height: 600px;
+    width: 600px;
+    float: left;
+    background-color: yellow;
+}
+
+.hello4{
+    height: 600px;
+    width: 600px;
+    float: right;
+    background-color: green;
+}
